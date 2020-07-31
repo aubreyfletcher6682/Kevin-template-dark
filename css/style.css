@@ -735,19 +735,19 @@ input#subject {
 }
 
 .page-count ul li a {
-    color: #1c1d24;
+    color: #e3e3e3;
     border-radius: 3px;
     padding: 15px;
 }
 
 .page-count ul li a:hover {
     background: #f5eee6;
-    color: #1c1d24;
+    color: #1c1d24 !important;
 }
 
 .active a {
     background: #f5eee6;
-    color: #1c1d24;
+    color: #1c1d24 !important;
 }
 
 
