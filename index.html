@@ -1,0 +1,551 @@
+<html lang="en">
+
+<head>
+    <!-- Page title + Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lina - Personal web template</title>
+    <meta name="description" content="A respansive personal web template using bootstrap 4.5">
+    <meta name="keywords" content="">
+    <meta name="author" content="EvinCode">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="icons/favicon.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- OWL SLIDER -->
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- Animate -->
+    <link href="css/aos.css" rel="stylesheet">
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/respansive.css">
+</head>
+
+<body>
+    <div id="home" class="tophead">
+        <!-- Header -->
+        <header id="myHeader">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-3">
+                        <!-- Logo -->
+                        <div class="logo mt-3" draggable="true">
+                            <a href="./index.html" class="lightlogo">
+                                <img src="img/logo-light.png" class="d-none d-lg-block" alt="Lina">
+                            </a>
+                        </div>
+                        <!-- Logo end -->
+                    </div>
+                    <div class="col-8">
+                        <div class="main-menu">
+                            <!-- Normal menu -->
+                            <div class="normal-menu d-none d-lg-block" draggable="true">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="#home">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#about">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="#services">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="#works">Works</a>
+                                        </li>
+                                        <li>
+                                            <a href="#clients">Clients</a>
+                                        </li>
+                                        <li>
+                                            <a href="#blog">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!-- Normal menu end -->
+                            <!-- Mobile menu -->
+                            <div class="mobile-menu d-lg-none">
+                                <div id="mySidenav" class="sidenav">
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                    <a href="#home">Home</a>
+                                    <a href="#about">About</a>
+                                    <a href="#services">Services</a>
+                                    <a href="#works">Works</a>
+                                    <a href="#clients">Clients</a>
+                                    <a href="#blog">Blog</a>
+                                    <a href="#contact">Contact</a>
+                                </div>
+                                <div class="ui-menu" draggable="true" onclick="openNav()">
+                                    <img class="mt-3" src="icons/menu.png">
+                                </div>
+                            </div>
+                            <!-- Mobile menu end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header end -->
+        <!-- Home Section -->
+        <section id="home">
+            <div class="container pd-home">
+                <div class="row">
+                    <div class="col-xl-1"></div>
+                    <div class="col-12 col-lg-5 col-xl-4">
+                        <div id="design" data-aos="fade-up">
+
+                            <img src="img/Photome.jpg">
+
+                            <div id=rotatedBorder></div>
+
+                            <div class=grid>
+                                <div data-white></div>
+                                <div></div>
+                                <div></div>
+                                <div data-white></div>
+                            </div>
+
+                            <div id=blend>
+                                <img src="img/Photome.jpg">
+                                <div class=grid>
+                                    <div></div>
+                                    <div data-white></div>
+                                    <div data-white></div>
+                                    <div></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-12 col-lg-6" data-aos="fade-up">
+                        <div class="textHead mx-3 ml-lg-5">
+                            <h1>Hi, My name is Lina,<br/>I'm a UI/UX designer based<br/>in London.</h1>
+                            <div class="linksHead mt-4">
+                                <button class="mt-3 float-sm-left" onclick="btnLinkFun()">Let's talk <img src="icons/right.png" class="py-1"></button>
+                                <a href="#" class="mt-4 float-sm-right pt-1">DOWNLOAD CV</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Home section end -->
+    </div>
+    <!-- About section -->
+    <section id="about">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <div class="col-lg"></div>
+                <div class="col-12 col-sm-4 col-md-3 col-lg-2">
+                    <div class="ex-number">
+                        6
+                    </div>
+                </div>
+                <div class="col-12 col-sm-8 col-md-5 col-lg-4">
+                    <div class="ex-text">
+                        years<br class="d-none d-sm-block" /> of experience
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="about-me">
+                        <p>I am a senior user interface and user experience designer. So far, I have completed more than 350 projects around the world. I learn, work and exercise every day</p>
+                    </div>
+                </div>
+                <div class="col-lg"></div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title" data-aos="fade-up">
+                        <h2>My Services</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4" data-aos="zoom-in">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <img src="icons/html.svg">
+                        </div>
+                        <h3 class="mt-4">Front-end development</h3>
+                        <p class="mt-2">I will develop your business website from zero to one hundred francs. With JavaScript, React, Angular</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4" data-aos="zoom-in">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <img src="icons/browser (1).svg">
+                        </div>
+                        <h3 class="mt-4">UX design</h3>
+                        <p class="mt-2">Create a lasting and great experience for your product customers. Increase your sales and engage with them</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4" data-aos="zoom-in">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <img src="icons/design.svg">
+                        </div>
+                        <h3 class="mt-4">Graphic design</h3>
+                        <p class="mt-2">I can do digital design in all styles with high quality. Beautiful and efficient for your business</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section end -->
+    <!-- Works section  -->
+    <section id="works">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title" data-aos="fade-up">
+                        <h2>Feature works</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-out">
+                    <div class="awork">
+                        <a href="./work-detail.html">
+                            <img src="img/work (1).jpg" alt="Project">
+                            <div class="overlay">
+                                <div class="textwork">Graphic design project</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-out">
+                    <div class="awork">
+                        <a href="./work-detail.html">
+                            <img src="img/work (2).jpg" alt="Project">
+                            <div class="overlay">
+                                <div class="textwork">Banner design project</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-out">
+                    <div class="awork">
+                        <a href="./work-detail.html">
+                            <img src="img/work (3).jpg" alt="Project">
+                            <div class="overlay">
+                                <div class="textwork">UI/UX design for Envato</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-out">
+                    <div class="awork">
+                        <a href="./work-detail.html">
+                            <img src="img/work (4).jpg" alt="Project">
+                            <div class="overlay">
+                                <div class="textwork">EvinCode web design</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-out">
+                    <div class="awork">
+                        <a href="./work-detail.html">
+                            <img src="img/work (5).jpg" alt="Project">
+                            <div class="overlay">
+                                <div class="textwork">Web development</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4" data-aos="zoom-out">
+                    <div class="awork">
+                        <a href="./work-detail.html">
+                            <img src="img/work (6).jpg" alt="Project">
+                            <div class="overlay">
+                                <div class="textwork">Hello World</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="viewmore">
+                        <a href="./works.html" data-aos="fade-up"> View more </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Works section end -->
+    <!-- Clients section -->
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="sectitle-two" data-aos="fade-up">
+                        <h2>Clients say</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel">
+                        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                            <div class="client">
+                                <img src="img/clientsme (1).jpg" alt="Alex" width="75px" height="75px">
+                                <h4 class="mt-3">Alex Joury</h4>
+                                <small class="client-job my-1">Digital marketer</small>
+                                <p class="my-2">Lina is a very professional person and she helped us a lot. Wishing you a lot of success for dear Lina</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                            <div class="client">
+                                <img src="img/client (1).jpg" alt="Alex" width="75px" height="75px">
+                                <h4 class="mt-3">Helia Yousefi</h4>
+                                <small class="client-job my-1">Software Engineer at Google</small>
+                                <p class="my-2">We had a great and exciting project. We had a good cooperation and they are very responsible and professional</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                            <div class="client">
+                                <img src="img/client (2).jpg" alt="Alex" width="75px" height="75px">
+                                <h4 class="mt-3">Patrick Powell</h4>
+                                <small class="client-job my-1">CEO of coca</small>
+                                <p class="my-2">She is very committed and regular in her work. We had more than 5 big projects together.</p>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                            <div class="client">
+                                <img src="img/client (3).jpg" alt="Alex" width="75px" height="75px">
+                                <h4 class="mt-3">Conor Livingston</h4>
+                                <small class="client-job my-1">Founder of EvinCode</small>
+                                <p class="my-2">We had a great and exciting project. We had a good cooperation and they are very responsible and professional</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients section end -->
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title" data-aos="fade-up">
+                        <h2>Latest post</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4" data-aos="zoom-out">
+                    <div class="blogpost pb-3">
+                        <figure>
+                            <img src="img/blog (1).jpg" alt="">
+                        </figure>
+                        <div class="pbox">
+                            <div class="post-date">
+                                <img src="icons/date.png" class="mr-1"> June 02, 2020
+                            </div>
+                            <h3 class="mt-3">
+                                <a href="./post-detail.html">Remote working tips for UX design teams</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" data-aos="zoom-out">
+                    <div class="blogpost pb-3">
+                        <figure>
+                            <img src="img/blog (2).jpg" alt="">
+                        </figure>
+                        <div class="pbox">
+                            <div class="post-date">
+                                <img src="icons/date.png" class="mr-1"> June 02, 2020
+                            </div>
+                            <h3 class="mt-3">
+                                <a href="./post-detail.html">Finding Animation’s Place in Web Design</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4" data-aos="zoom-out">
+                    <div class="blogpost pb-3">
+                        <figure>
+                            <img src="img/blog (3).jpg" alt="">
+                        </figure>
+                        <div class="pbox">
+                            <div class="post-date">
+                                <img src="icons/date.png" class="mr-1"> June 02, 2020
+                            </div>
+                            <h3 class="mt-3">
+                                <a href="./post-detail.html">How to Design Your Site to Make it Super-fast</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="viewmore" data-aos="fade-up">
+                        <a href="./Blog.html"> View more </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section end -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row pcnt pb-4">
+                <div class="col-lg"></div>
+                <div class="col-12 col-md-7 col-lg-6">
+                    <div class="talk-sec" data-aos="fade-up">
+                        <h2>Let's talk together.<br class="d-none d-md-block" /> I'm ready to talk with you</h2>
+                        <p class="py-1">You can use contact form or use other way to contact me. I'll happy to talk with you. Are you ready to start a project with me?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-4">
+                    <div class="contact-box mb-4" data-aos="zoom-out">
+                        <ul>
+                            <li>
+                                <img src="icons/email-24px.svg" class="mr-1"> hi@linatheme.com
+                            </li>
+                            <li>
+                                <img src="icons/call-24px.svg" class="mr-1"> +1-5429-301
+                            </li>
+                            <li>
+                                <img src="icons/place-24px.svg" class="mr-1"> London, UK
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg"></div>
+            </div>
+            <div class="row" data-aos="fade-up">
+                <div class="col"></div>
+                <div class="col-10">
+                    <form action="" class="contact-form">
+                        <input type="text" name="fullname" id="name" placeholder="Your Name">
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                        <input type="text" name="subject" id="subject" placeholder="Subject">
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Your message"></textarea>
+                        <input type="submit" id="submit" value="Send message">
+                    </form>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer -->
+    <footer id="footerlina">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footercontent" data-aos="zoom-in-up">
+                        <div class="logo pt-5 pb-4" draggable="true">
+                            <a href="#" class="lightlogo">
+                                <img src="img/logo-light.png" alt="Lina">
+                            </a>
+                        </div>
+                        <ul class="fo-socialmedia">
+                            <li>
+                                <a href="#"><img src="icons/twitter.svg" alt="twitter"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="icons/instagram.svg" alt="instagram"></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="icons/facebook.svg" alt="facebook"></a>
+                            </li>
+                        </ul>
+                        <div class="copyright pt-2 pb-4">
+                            ℗ 2020 Lina theme, Created by EvinCode
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- OWL SLIDER -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Animate -->
+    <script src="js/aos.js"></script>
+    <script>
+        /* Mobile menu */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+        /* Clients Slider */
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            })
+
+        });
+
+        // Header sticky
+        window.onscroll = function() {
+            myFunction()
+        };
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("headersticky");
+            } else {
+                header.classList.remove("headersticky");
+            }
+        }
+
+
+        // button link to contact section
+        function btnLinkFun() {
+            window.location.href = '/index.html#contact';
+        }
+        AOS.init();
+    </script>
+</body>
+
+</html>
